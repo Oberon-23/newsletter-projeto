@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/favicon-16x16.png" />
+    <title>Newsletter - Landing Page</title>
+  </head>
+  <body>
+    <!-- Modal sucesso ou erro -->
+    <dialog class="modal__enviar">
+      <div class="modal__content">
+        <p class="modal__msg_sucesso">
+          E-mail cadastrado com <span class="sucesso">sucesso</span>!
+        </p>
+        <p class="modal__msg_erro">
+          E-mail <span class="erro">não</span> cadastrado!
+        </p>
+        <button type="button" class="btn btn__fechar">Fechar</button>
+      </div>
+    </dialog>
+
+    <header>
+      <span class="header__logo">
+        <a href="#">
+          <span class="blue">B</span>
+          <span class="texto">Front</span>
+        </a>
+      </span>
+
+      <button type="button" class="btn btn__comprar">COMPRAR EBOOK</button>
+    </header>
+
+    <main>
+      <section class="section__content">
+        <h2>Seja bem-vindo a sua melhor newsletter</h2>
+
+        <h3>Fique por dentro de todas as novidades</h3>
+
+        <p>Preencha os campos para receber as notícias sobre programação</p>
+
+        <form action="">
+          <div class="inputs">
+            <label for="input__nome">Nome</label>
+            <input
+              type="text"
+              name=""
+              id="input__nome"
+              class="input__nome"
+              autofocus
+            />
+            <span class="erro__nome erro"></span>
+          </div>
+
+          <div class="inputs">
+            <label for="input__email">E-mail</label>
+            <input type="text" name="" id="input__email" class="input__email" />
+            <span class="erro__email erro"></span>
+          </div>
+
+          <div class="buttons">
+            <button type="submit" class="btn btn__enviar">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      Produzido por Breno Siva &copy; 2025 | Inspirado no desafio eFront do Iuri
+      Code.
+    </footer>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
