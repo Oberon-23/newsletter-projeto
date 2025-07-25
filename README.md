@@ -1,11 +1,11 @@
-# 📬 Newsletter PetLife
+# 📬 Newsletter 
 
 [![Deploy - Vercel](https://img.shields.io/badge/Deploy-Vercel-000?style=for-the-badge&logo=vercel&logoColor=white)](https://newsletter-projeto-nine.vercel.app/)
 [![GitHub](https://img.shields.io/badge/Código-Fonte-181717?style=for-the-badge&logo=github)](https://github.com/Oberon-23/newsletter-projeto)
 
 ## ✨ Descrição
 
-Este é um projeto de página de **newsletter responsiva** desenvolvido com foco em **boas práticas de HTML, CSS e JavaScript**, ideal para captar e-mails de usuários interessados em receber novidades e atualizações sobre a PetLife, uma clínica veterinária fictícia.
+Este é um projeto de página de **newsletter responsiva** desenvolvido com foco em **boas práticas de HTML, CSS e JavaScript**, ideal para captar e-mails de usuários interessados em receber novidades e atualizações.
 
 A aplicação simula um **formulário de inscrição simples**, com feedback visual e uma interface moderna, sendo totalmente funcional no front-end e ideal para integrar com ferramentas de automação de envio de e-mails como Mailchimp ou serviços SMTP.
 
